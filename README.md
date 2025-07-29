@@ -16,28 +16,29 @@ Esta é uma API REST simples desenvolvida com Spring Boot que oferece operaçõe
 ## 🚀 Como rodar o projeto
 
 ### 1. Clone o repositório
+git clone https://github.com/AndreFerrarez/Math-Api.git
 
 ## A aplicacao sera iniciada em:
 http://localhost:8080
 
-## Adicao 
+Adicao 
 ...  http://localhost:8080/api/add?a=5&b=3
 
-## Subtracao
+Subtracao
 ... http://localhost:8080/api/subtract?a=10&b=4
 
-## Divisao
+Divisao
 ... http://localhost:8080/api/divide?a=20&b=4
 
-## Multiplicacao
+Multiplicacao
 ...  http://localhost:8080/api/multiply?a=7&b=6
 
-## Potenciacao
+Potenciacao
 ... http://localhost:8080/api/power?base=2&exponent=8
 
 
 ```bash
-git clone https://github.com/AndreFerrarez/Math-Api.git
+
 cd math-api
 
 ./mvnw spring-boot:run
